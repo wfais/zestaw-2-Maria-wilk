@@ -6,7 +6,7 @@ def dodaj_element(wejscie):
         nonlocal dl, wyn
         if isinstance(a,list):
             if b>dl:
-                dl=b
+                dl=b 
                 wyn=[a]
             elif b==dl:
                 wyn.append(a)

@@ -10,7 +10,7 @@ HEADERS = {
 
 # przygotowanie wyrażenia regularnego wyłapującego słowa (litery)
 WORD_RE = re.compile(r"[^\W\d_]+", re.UNICODE)
-
+ 
 
 def selekcja(text: str):
     slowa=WORD_RE.findall(text)

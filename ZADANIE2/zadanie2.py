@@ -22,7 +22,7 @@ def arabskie_na_rzymskie(arabskie):
                wartosc+=j
                arabskie-=i
     return wartosc
-
+ 
 if __name__ == '__main__':
     try:
         # Przykłady konwersji rzymskiej na arabską

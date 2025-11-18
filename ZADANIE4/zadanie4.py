@@ -7,7 +7,7 @@ import sys
 LICZBA_KROKOW = 80_000_000
 LICZBA_WATKOW = sorted({1, 2, 4, os.cpu_count() or 4})
 
-
+ 
 def policz_fragment_pi(pocz: int, kon: int, krok: float, wyniki: list[float], indeks: int) -> None:
     # Funkcja oblicza częściową sumę przybliżenia liczby pi metodą prostokątów.
     # Argumenty:

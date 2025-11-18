@@ -10,7 +10,7 @@ def rysuj_wielomian(wejscie):
     minx, maxx=map(float,p.strip().split())
     x_val=np.linspace(minx, maxx, 10)
     y_val=np.array([eval(f_str, {"x": x, "sin": np.sin, "cos": np.cos}) for x in x_val])
-
+ 
     plt.plot(x_val, y_val, label='eval + numpy', linestyle='--', color='blue')
     plt.title(f"Wykres funkcji (eval): {f_str}")
     plt.xlabel("x")
